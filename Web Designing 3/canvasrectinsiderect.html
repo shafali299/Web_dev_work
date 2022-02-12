@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script>
+            window.onload = function(){
+                var canvas = document.getElementById("myCanvas");
+            	var c = canvas.getContext("2d");  //create HTML5 context object to enable draw methods
+				drawNestedRectangles(c, 200, 100, 6, 500, 400, "red");
+			
+            };		
+			
+				
+
+				
+function drawNestedRectangles(context, whereX, whereY, howMany, width, height, color){	
+			
+		context.beginPath();
+		context.rect(whereX, whereY, width, height);
+		context.fillStyle = "white";
+		context.fill();
+		
+		context.lineWidth = 4;
+		context.strokeStyle = color; 
+		context.stroke();
+		for(var i=0; i<howMany - 1; i++) {
+			whereX = whereX - 5;
+			whereY = whereY - 5;
+			width = width - 5;
+			height = height - 5;
+			context.beginPath();
+			context.rect(whereX, whereY, width, height);
+			context.fill();
+			context.lineWidth = 4;
+			context.strokeStyle = color;
+			context.stroke();
+		}
+								
+			
+			
+}
+</script>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="800" height="600">
+        Your browser doesn't support the HTML5 canvas tag 
+        	
+        </canvas>
+    </body>
+</html>

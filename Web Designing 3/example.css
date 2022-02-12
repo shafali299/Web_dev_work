@@ -1,0 +1,32 @@
+body {
+  font-family: system-ui;
+  background-image:url("C:/Users/HP/Desktop/Web Designing internship/Images/Vaccine.png");
+  color: black;
+   ;
+  
+}
+submit:hover {
+  background-color: blue;
+}
+.submit {
+  font-size:  50px;
+}
+.message {
+  border: 10px;
+  padding: 30px;
+}
+.form {
+  background-color:  #ADD8E6;
+  border: 5px solid lightgreen;
+  width: 400px;
+  justify-content: center;
+  align-content: center;
+  height:1500px;
+  display:grid;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
