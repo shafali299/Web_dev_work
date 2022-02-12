@@ -1,0 +1,15 @@
+.first
+{
+	background-color: palevioletred;
+	height: 100px;
+	border-style: solid;
+	border-color: black;
+    border-width: 1px;
+}
+.second
+{
+	background-color: #DBE6FD;
+	border-style: solid;
+	border-color: black;
+    border-width: 1px;
+}

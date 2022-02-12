@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <h1 style="color:mediumslateblue;"><center><u>STUDENT REGISTRATION FORM</u></center></h1>
+        <link rel="stylesheet" href="SRF.css">
+        <script>
+
+function validation(){ var email-document.getElementById("mail").value;
+
+£f(/^\w+([\. -]?\w+) @\(\-]?\w+)(\.\w(2,3))+5/.test(document.getElementById("1").value)) return (true)
+
+alert("you have entered an invalid email") return (false)
+
+</script>
+    </head>
+    <body style="color:white;">
+        
+        <caption title="Container Table"></caption>
+        <form action="" style="background-color:mediumpurple;">
+            <table class="center" >
+                <tr>
+                    <td>FIRST NAME</td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>LAST NAME</td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>DATE OF BIRTH</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>EMAIL ID</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NUMBER</td>
+                    <td><input type="text" maxlength="10">(10 digit number)</td>
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>Male <input type="radio" id="Male" name="GENDER" value="Male">Female <input type="radio" id="Female" name="GENDER" value="Female"></td>
+                </tr>
+                <tr>
+                    <td>ADDRESS</td>
+                    <td><textarea name="ADDRESS" id="ADDRESS" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>CITY</td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>PIN CODE</td>
+                    <td><input type="number">(6 digit number)</td>
+                </tr>
+                <tr>
+                    <td>STATE</td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td>COUNTRY</td>
+                    <td><input type="text" value="India" disabled></td>
+                </tr>
+                <tr>
+                    <td>HOBBIES</td>
+                    <td>Drawing<input type="checkbox" name="hobby1" id="hobby1" value="Drawing">Singing<input type="checkbox" name="hobby2" id="hobby2" value="Singing">Dancing<input type="checkbox" name="hobby3" id="hobby3" value="Dancing">Sketching<input type="checkbox" name="hobby4" id="hobby4" value="Sketching"><br>
+                    Others<input type="checkbox" name="hobby5" id="hobby5" value="Others"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td><table>
+                    <tr><th>Sl.No.</th><th>Examination</th><th>Board</th><th>percentage</th><th>Year of Passing</th></tr>
+                    <tr><td>1</td><td>Class X</td><td><input type="text"></td><td><input type="number"></td><td><input type="number"></td></tr>
+                    <tr><td>2</td><td>Class XII</td><td><input type="text"></td><td><input type="number"></td><td><input type="number"></td></tr>
+                    <tr><td>3</td><td>Graduation</td><td><input type="text"></td><td><input type="number"></td><td><input type="number"></td></tr>
+                    <tr><td>4</td><td>Masters</td><td><input type="text"></td><td><input type="number"></td><td><input type="number"></td></tr>
+                    <tr><td></td><td></td><td>(10 char max)</td><td>(upto 2 decimal)</td></tr>
+                    </table></td>
+
+                </tr>
+                <tr>
+                    <td>Courses<br>applied<br>for</td>
+                        <td><input type="radio" name="BCA" id="BCA">BCA<input type="radio" name="BCom" id="BCom">BCom<input type="radio" name="B.Sc" id="B.Sc">B.Sc<input type="radio" name="B.A." id="B.A.">B.A.</td>
+                </tr>
+               
+            </table>
+            <center>
+                <td><input type="submit" value="submit">
+                <input type="reset" value="reset"></td>
+            </center>
+        </form>
+        
+    </body>
+</html>

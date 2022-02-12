@@ -1,0 +1,52 @@
+.main{
+    height: 800px;
+    width:700px;
+    align-content: center;
+    margin-top: 250px;
+    margin-left: 450px;
+    color: white;
+}
+.sd{
+    text-align: center;
+    font-size: 25px; 
+    height: 60px;
+    width: 700px;
+    background-color: blue;
+    border:2px solid rgb(64, 61, 204);
+  
+}
+.para{
+    top-padding: 4px;
+}
+.sh{
+    font-size: 20px; 
+    height: 200px;
+    width: 700px;
+    color: black;
+    margin: 10px 5px 15px; 
+}
+.td{
+    text-align: center;
+    font-size: 20px; 
+    height: 40px;
+    width: 700px;
+    background-color: rgb(243, 28, 214);
+    border:2px solid rgb(177, 104, 173);
+}
+.fh{
+    text-align: center;
+    font-size: 20px; 
+    height: 40px;
+    width: 700px;
+    background-color: rgb(243, 28, 214);
+    border:2px solid rgb(231, 77, 211);
+}
+.seh{
+    margin: 10px 5px 15px; 
+    text-align: center;
+    font-size: 20px; 
+    height: 40px;
+    width: 700px;
+    border:2px solid rgb(231, 77, 211);
+    background-color: rgb(243, 28, 214);
+}

@@ -1,0 +1,49 @@
+.foot{
+    display:inline-block;
+    margin:30px;
+    padding:10px;
+    width:12%;
+}
+.foot a{
+    color:rgb(29, 29, 29);
+}
+.recruiters{
+    margin-bottom:120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+        
+}
+hr{
+    color:grey;
+    width:90%;
+
+}
+.recr{
+    width:20%;
+    display: inline-block;
+    margin:20px;
+}
+.navbar{
+    background: #000!important;
+    color:white!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.right{
+   float: right;
+    position: absolute;
+    right:20px;
+}
+.left{
+    float:left;
+    position: absolute;
+    left:40px;
+}
+.right a{
+    margin:7px;
+    color:white;
+}\

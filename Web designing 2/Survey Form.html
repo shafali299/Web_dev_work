@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>COVID-19 Survey FORM</title>
+    <center><link rel="stylesheet" href="C:\Users\HP\Desktop\Web Designing internship\example.css"> </center>
+    <script type="text/javascript">document.getElementsByTagName("h1")[0].fontSize = "6vw";</script>
+  </head>
+  <body bgcolor="#F7E7CE">
+    <h1>COVID-19 SURVEY FORM</h1>
+    <marquee direction="right" bgcolor="brown"> <b>DO GAJ DOORI, MASK HAI ZAROORI </b>
+        </marquee>
+    <div class="form" class="center">
+      <div class="description"><p>Kindly fill all required entries with correct information and don't forget to share with everyone you know.</div>
+<p>Name</p>
+<form id="survey-form" action="/submit-user-name">
+<input type="text" placeholder="Full name" required>
+</form><br>
+<label for="Birthday">Birthday:</label>
+  <input type="date" for="Birthday" name="birthday"><br> 
+<p>Gender</p><br>
+<label>
+  <input type="radio" value="male" name="male-female-others">male
+</label>
+<label>
+  <input type="radio" value="female" name="male-female-others">female
+</label>
+<label>
+  <input type="radio" value="others" name="male-female-others">others
+</label><br>
+<p>E-mail Address</p>
+<form id="user-e-mail-form" action="/submit-e-mail">
+<input type="text" placeholder="e-mail" required>
+</form><br>
+<p>phone number</p>
+<form id="user-phone-no" action="/submit-user-phone-No">
+<input type="number" placeholder="phone-No" required>
+</form><br>
+<p>Travel History</p>
+<p>Did you return recently from any country with a confirmed case of COVID-19, PLEASE TICK</p> 
+<label>
+  <input type="radio" value="yes" name="Yes-No">Yes
+</label>
+<label>
+  <input type="radio" value="No" name="Yes-No">No
+</label>
+<p>Check any of the boxes if you feel any of these in the past two weeks</p>
+<label>
+  <input type="checkbox" value="Dry cough" name="symptoms">Dry cough
+</label>
+<label>
+<input type="checkbox" value="Headache" name="symptoms">Headache
+</label>
+<label>
+<input type="checkbox" value="Dizziness" name="symptoms">Dizziness
+</label>
+<label>
+<input type="checkbox" value="Body weakness" name="symptoms">Body weakness
+</label>
+<label>
+<input type="checkbox" value="Tiredness" name="symptoms">Tiredness
+</label>
+<label>
+  <input type="checkbox" value="Loss of smell" name="symptoms">Loss of smell
+</label>
+<table>
+<tr>
+                    <td>VACCINE TAKEN</td>
+                    <td>Covaxin<input type="checkbox" name="Covaxin" id="Covaxin" value="Covaxin">Covishield<input type="checkbox" name="Covishield" id="Covishield" value="Covishield">Sputnik<input type="checkbox" name="Sputnik" id="Sputnik" value="Sputnik">Others<input type="checkbox" name="Others" id="Others" value="Others"><br></td>
+                      <td>Would you recommend taking VACCINE to others? <input type="checkbox" name="Recommend" id="Recommend" value="Recommend">
+                    </td>
+                </tr> </table>
+<br>
+      <p>Select how you came to know about this form</p>
+      <div class="info-options">
+      <select id="info-options" name="options">
+  <option value="Twitter">Twitter</option>
+  <option value="Facebook">Facebook</option>
+  <option value="Telegram">Telegram</option>
+  <option value="Instagram">Instagram</option>
+        </select></div>
+      <div class="message">
+      <textarea name="message" rows="10" cols="30">
+drop your comments.
+        </textarea></div>
+<div class="submit">
+<button type="Submit">submit</submit> 
+</div>
+    </div>
+  </body>
+</html>

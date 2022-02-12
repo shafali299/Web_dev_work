@@ -1,0 +1,12 @@
+.carousel-item img
+{
+	height:100%;
+	width:100%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+	height: 40px;
+	width: 40px;
+	color: black;
+
+}
